@@ -2,7 +2,7 @@
 
 This vault is to share the code used in paper 'Image Transfer Applied in Electric Machine Optimization' presented in RTUCON2020
 
-The main coding language used in this project is Python (deep learning solver) and Matlab (JMAG solver & optimization)
+The main coding language used in this project is Python (to control deep-learning solver) and Matlab (to control finite-element solver & optimization)
 
 The software used for data generation is JMAG
 
