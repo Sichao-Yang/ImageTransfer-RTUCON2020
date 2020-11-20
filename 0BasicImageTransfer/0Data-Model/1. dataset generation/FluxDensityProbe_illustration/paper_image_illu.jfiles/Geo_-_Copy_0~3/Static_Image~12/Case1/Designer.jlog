@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logfile ver="0.3">
+<!-- 
+	ExecSolver (2019.05e_sp1)
+
+	Copyright (c) 1998-2018
+	JSOL Corporation.
+	All rights reserved.
+
+	Tue Jul  7 16:09:06 2020
+
+	compiled time : May 24 2019, 12:21:02
+
+ -->
+<!-- intmax=4294967295 -->
+<!-- argv[0]: C:/Program Files/JMAG-Designer18.1/ExecSolver.exe -->
+<!-- argv[1]: F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jcf -->
+<!-- JMAG-Designer=18.1 -->
+<!-- Execute FHI -->
+<!-- ResetRestartByForce -->
+<!-- reading by FHI -->
+<!-- InputFileName = F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jcf -->
+<!-- jdisp file = F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.disp -->
+<!-- m_IsPreExecuteJMorph = 0 -->
+<!-- IsExistCondition(CutPlaneAnalysis) = false -->
+<!-- argv[0]: C:/Program Files/JMAG-Designer18.1/ExecSolver.exe -->
+<!-- argv[1]: F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jcf -->
+<!-- InsDir=C:/Program Files/JMAG-Designer18.1 -->
+<!-- m_WorkingDir=F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- m_SolType=13 -->
+<!-- m_Ironloss=0 -->
+<!-- m_Patch=1 -->
+<!-- m_Adap=0 -->
+<!-- m_AdapItr=1 -->
+<!-- m_AdapRemeshItr=0 -->
+<!-- m_AdapEps=2.000000e-01 -->
+<!-- m_Mtot=65011712 -->
+<!-- gInputFile=F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer -->
+<!-- gInputFile2= -->
+<!-- gInputFileWithExtension=F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jcf -->
+<!-- gOutputFileWithExtension= -->
+<!-- gMapStressFile= -->
+<!-- gIronLossFile= -->
+<!-- gExecutionMode=run -->
+<!-- gRenamedPlotFileName= -->
+<!-- gCopyDstDirInfo= -->
+<!-- gIsBinaryPlot=1 -->
+<!-- gNoUseExecTask=0 -->
+<!-- gProcessLock=1 -->
+<!-- gPlotExt=.jplot -->
+<!-- m_SaveCheck=0 -->
+<!-- m_Restart=0 -->
+<!-- m_RestartType=0 -->
+<!-- m_RestartFileCopy=0 -->
+<!-- m_Solid=0 -->
+<!-- m_MG2D=1 -->
+<!-- m_MultiSlide=0 -->
+<!-- m_PostRename=1 -->
+<!-- m_MakeAir=1 -->
+<!-- m_CheckMode=0 -->
+<!-- m_PostRenameMode=1 -->
+<!-- m_ExecMode=1 (YES:1,NO:0) -->
+<!-- m_MesherCheck=0 -->
+<!-- m_MapStress=0 -->
+<!-- m_MapInitialStress=0 -->
+<!-- m_MapDisplacement=0 -->
+<!-- m_MapTemperature=0 -->
+<!-- m_flg_circuit_conversion=1 -->
+<!-- m_NumElem=0 -->
+<!-- m_IsExistTetra=0 -->
+<!-- m_FileFormatType=0(JCF:0,OTHER:1) -->
+<!-- m_IsRT=0 -->
+<!-- m_ExecTask=0 -->
+<!-- m_IsCoupledHeat=0 -->
+<!-- gJmagProduct.m_Product=2 -->
+<!-- gJmagProduct.m_Version=18.1 -->
+<!-- isKeepJstage1=0 -->
+<!-- m_flg_exclusive_rt=0 -->
+<!-- m_flg_execute_postprocess=0 -->
+<!-- m_flg_execute_jplotcalculator=0 -->
+<!-- m_DeleteResultFilesAfterCsvOutput=0 -->
+<!-- m_element_order=1 -->
+<!-- m_TableResultsOnly=0 -->
+<!-- m_IoSaveFile=0 -->
+<message>
+	<code>120003</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Execution Date</text>
+	<data key="EXECDATE">2020/07/07 16:09</data>
+</message>
+<message>
+	<code>120004</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Execution Directory</text>
+	<data key="EXECDIR">F:/2. Work Project/2020_FEM_ImageTransfer/00. tools &amp; codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/</data>
+</message>
+<message>
+	<code>120005</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Input Filename</text>
+	<data key="IN_FILENAME">Designer.jcf</data>
+</message>
+<message>
+	<code>120010</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Title</text>
+	<data key="EXEC_FILENAME">Designer</data>
+</message>
+<message>
+	<code>120006</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Size of Input File</text>
+	<data key="IN_FILE_SIZE">71</data>
+</message>
+<message>
+	<code>120080</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>JMAG-Designer Version Number</text>
+	<data key="PREPOST_VERSION">JMAG-Designer(x64) 18.1.01z
+</data>
+</message>
+<message>
+	<code>120011</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>jam.exe version</text>
+	<data key="JAM_VERSION">18.1.8w_S</data>
+</message>
+<message>
+	<code>120012</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>mg2d.exe version</text>
+	<data key="MG2D_VERSION">181.2019.5b</data>
+</message>
+<data key="ADAPTIVE_STAGE">-</data>
+<!-- check num cpu for parallel license -->
+<!-- cpu_jmsmp -->
+<!-- Licence Check Waiting Mode = 0 -->
+<!-- Licence Check Start Time : 2020/07/07-16:09:06 -->
+<!-- Check Flexlm license. -->
+<!-- Feature  = JW_MAG_ST_2D -->
+<!-- machine_name = DESKTOP-L8JKL8M -->
+<!-- IP address = 192.168.56.1 -->
+<!--   driverPath of this driver : F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- driver path : F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!--   pid of this driver = 14724 -->
+<!-- driver pid = 14724 -->
+<!-- checkout_keyword = JW_MAG_ST_2DDESKTOP-L8JKL8M192.168.56.1F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case114724 -->
+<!-- check_sumchar = 3062641454 -->
+<!-- check_sum = 3062641454 -->
+<!-- Licence Check End Time : 2020/07/07-16:09:06 -->
+<!-- It is successful to get the solver license [JW_MAG_ST_2D] after meshing (ID=3062641454) -->
+<!-- Licence Check Waiting Mode = 0 -->
+<!-- Licence Check Start Time : 2020/07/07-16:09:06 -->
+<!-- Check Flexlm license. -->
+<!-- Feature  = JW_MAG_SMP -->
+<!-- machine_name = DESKTOP-L8JKL8M -->
+<!-- IP address = 192.168.56.1 -->
+<!-- driver path : F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- driver pid = 14724 -->
+<!-- checkout_keyword = JW_MAG_SMPDESKTOP-L8JKL8M192.168.56.1F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case114724 -->
+<!-- check_sumchar = 1399824869 -->
+<!-- check_sum = 1399824869 -->
+<!-- Licence Check End Time : 2020/07/07-16:09:06 -->
+<!-- It is successful to get 2 the parallel licenses [JW_MAG_SMP] after meshing (ID=1399824869) -->
+<!-- MG2DAutoMeshAnalysis -->
+<!-- FileCopy from F:\2. Work Project\2020_FEM_ImageTransfer\00. tools & codes\1. JMAG FEA GA\2. controled FE model\ImageTransfer_only.jfiles\Geo_-_Copy_0~3\Static_Image~12\Case1\Designer.jcf to F:\2. Work Project\2020_FEM_ImageTransfer\00. tools & codes\1. JMAG FEA GA\2. controled FE model\ImageTransfer_only.jfiles\Geo_-_Copy_0~3\Static_Image~12\Case1\DATA.jcf -->
+<!-- cmd /c ""C:/Program Files/JMAG-Designer18.1\mg2dnv.exe" -adaptive" -->
+
+	Finish Time: Tue Jul  7 16:09:06 2020
+
+</logfile>
+<logfile ver="0.3">
+<!-- 
+	MG2D (181.2019.05b)
+
+	Copyright (c) 1998-2018
+	JSOL Corporation.
+	All rights reserved.
+
+	Tue Jul  7 16:09:07 2020
+
+	Mesh Generater 2D
+	compiled time : May 27 2019 16:20:25
+ -->
+<!-- jlog file can not be opened in the jcf file -->
+<!-- argv[0]:C:/Program Files/JMAG-Designer18.1\mg2dnv.exe -->
+<!-- argv[1]:-adaptive -->
+<!-- ... ReadData, elapsed_time = 6.40000e-02(sec) -->
+<!-- ... Using tolerance = 0.00000e+00 -->
+<!-- ... PreProcessForDelaunay, elapsed_time = 1.00000e-03(sec) -->
+<!-- ... DelaunayProcess, elapsed_time = 1.08000e-01(sec) -->
+<data key="ADAPTIVE_STAGE">0</data>
+<!-- NumElement = 2019 -->
+<!-- version = 18.000000 -->
+<!-- copy fem.jcf jinput.jcf -->
+<!-- "C:/Program Files/JMAG-Designer18.1\jam.exe" 100 . 0 -->
+
+	Finish Time: Tue Jul  7 16:09:07 2020
+
+</logfile>
+<logfile ver="0.3">
+<!-- Solver file is jinput.jcf -->
+<!-- [fsopen] -->
+<message>
+	<code>29015</code>
+	<status>Message</status>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>jam.exe</text>
+	<data key="VERSION">18.1.8w_S</data>
+</message>
+<!-- Solver file is jinput.jcf -->
+<!-- Flex License Check Out -->
+<!-- Feature  = JW_MAG_ST_2D_SV -->
+<!-- Host name= DESKTOP-L8JKL8M -->
+<!-- IP address= 192.168.56.1 -->
+<!-- WorkDir  = F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- Keynumber= 1980548793 -->
+<!-- Driver WorkDir= F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- Driver Process ID= 14724 -->
+<!-- env (null) -->
+<!-- now calling qvm : no waiting -->
+<!-- FEATURE: JW_MAG_ST_2D_SV, status: -5 -->
+<!-- Feature  = JW_MAG_ST_2D -->
+<!-- Host name= DESKTOP-L8JKL8M -->
+<!-- IP address= 192.168.56.1 -->
+<!-- WorkDir  = F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- Keynumber= 3062641454 -->
+<!-- Driver WorkDir= F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- Driver Process ID= 14724 -->
+<!-- env (null) -->
+<!-- now calling qvm : no waiting -->
+<!-- FEATURE: JW_MAG_ST_2D, status: 0 -->
+<!-- Feature  = JW_MAG_SMP -->
+<!-- Host name= DESKTOP-L8JKL8M -->
+<!-- IP address= 192.168.56.1 -->
+<!-- WorkDir  = F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- Keynumber= 1399824869 -->
+<!-- Driver WorkDir= F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1 -->
+<!-- Driver Process ID= 14724 -->
+<!-- env (null) -->
+<!-- now calling qvm : no waiting -->
+<!-- FEATURE: JW_MAG_SMP, status: 0 -->
+<!-- omp_set_num_threads(4) -->
+<!-- OMP_NUM_THREDS putenv = 0 -->
+<!-- setting3 OMP_NUM_THREADS =4 -->
+<!-- KMP_AFFINITY = (null) -->
+<!-- Solver file is jinput.jcf -->
+<!--     Max Used Memory:     0.000[MByte] -->
+<!--     Max Used Memory:     0.000[MByte] -->
+<!--     Max Used Memory:     0.000[MByte] -->
+<!--     Max Used Memory:     0.001[MByte] -->
+<!--     Max Used Memory:     0.052[MByte] -->
+<!--     Max Used Memory:     0.165[MByte] -->
+<!--     Max Used Memory:     5.218[MByte] -->
+<!--     Max Used Memory:     5.248[MByte] -->
+<!--     Max Used Memory:     5.251[MByte] -->
+<!--     Max Used Memory:     5.260[MByte] -->
+<!--     Max Used Memory:     5.729[MByte] -->
+<!--     Max Used Memory:     5.756[MByte] -->
+<!--     Max Used Memory:     5.838[MByte] -->
+<!-- restart_type is [0] -->
+<!-- solver_type [13] -->
+<!-- force_file [0] On(1)/Off(0) -->
+<message>
+	<code>29127</code>
+	<status>Warning</status>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>automatic CG acceleration coefficient determination is not supported</text>
+</message>
+<!--     Max Used Memory:     5.838[MByte] -->
+<!--     Max Used Memory:     5.838[MByte] -->
+<!--     Max Used Memory:     5.862[MByte] -->
+<!--     Max Used Memory:     5.867[MByte] -->
+<!--     Max Used Memory:     5.871[MByte] -->
+<!--     Max Used Memory:     5.875[MByte] -->
+<!--     Max Used Memory:     5.887[MByte] -->
+<!--     Max Used Memory:     5.905[MByte] -->
+<!--     Max Used Memory:     5.905[MByte] -->
+<!--     Max Used Memory:     5.913[MByte] -->
+<!--     Max Used Memory:     5.929[MByte] -->
+<!--     Max Used Memory:     5.945[MByte] -->
+<!--     Max Used Memory:     5.949[MByte] -->
+<!-- [get_global_memory] total memory 16070.000000 [Mbyte] -->
+<!-- [get_global_memory] avail memory 9747.000000 [Mbyte] -->
+<!-- [get_global_memory] used  memory 6323.000000 [Mbyte] -->
+<!--     Max Used Memory:     5.953[MByte] -->
+<!-- [get_global_memory] total memory 16070.000000 [Mbyte] -->
+<!-- [get_global_memory] avail memory 9747.000000 [Mbyte] -->
+<!-- [get_global_memory] used  memory 6323.000000 [Mbyte] -->
+<!--     Max Used Memory:     5.957[MByte] -->
+<!--     Max Used Memory:     6.006[MByte] -->
+<!--   Max Used Memory (long):     0.049[MByte] -->
+<!--     Max Used Memory:     6.010[MByte] -->
+<!--     Max Used Memory:     6.010[MByte] -->
+<!--     Max Used Memory:     6.014[MByte] -->
+<!--     Max Used Memory:     6.023[MByte] -->
+<!--     Max Used Memory:     6.030[MByte] -->
+<!--     Max Used Memory:     6.038[MByte] -->
+<!--     Max Used Memory:     6.047[MByte] -->
+<!--     Max Used Memory:     6.071[MByte] -->
+<!--     Max Used Memory:     6.079[MByte] -->
+<!--     Max Used Memory:     6.194[MByte] -->
+<!--     Max Used Memory:     6.194[MByte] -->
+<!--     Max Used Memory:     6.194[MByte] -->
+<!--     Max Used Memory:     6.194[MByte] -->
+<!--     Max Used Memory:     6.210[MByte] -->
+<table row="1" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>17</text>
+</table>
+<table row="1" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Coil@Air@Coil@0</text>
+</table>
+<table row="1" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="2" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>18</text>
+</table>
+<table row="2" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Stator Core@35JN250@Stator Core@1</text>
+</table>
+<table row="2" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ISOSTEEL%<br>JFE_Steel/JN_Core/35JN250.hb<br> ]]></text>
+</table>
+<table row="3" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>21</text>
+</table>
+<table row="3" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Coil@Air@Coil@0</text>
+</table>
+<table row="3" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="4" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>23</text>
+</table>
+<table row="4" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Coil@Air@Coil@0</text>
+</table>
+<table row="4" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="5" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>25</text>
+</table>
+<table row="5" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Coil@Air@Coil@0</text>
+</table>
+<table row="5" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="6" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>27</text>
+</table>
+<table row="6" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Coil@Air@Coil@0</text>
+</table>
+<table row="6" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="7" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>29</text>
+</table>
+<table row="7" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Coil@Air@Coil@0</text>
+</table>
+<table row="7" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="8" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>41</text>
+</table>
+<table row="8" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Rotor Magnet@N35H@Rotor Magnet@3</text>
+</table>
+<table row="8" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%MAGNET%<br>Arnold/Nd-Fe-B/N35H.hbt<br>%Magnetization% : 698211 [A/m]<br> ]]></text>
+</table>
+<table row="9" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>42</text>
+</table>
+<table row="9" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Rotor Core@35JN250@Rotor Core@2</text>
+</table>
+<table row="9" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ISOSTEEL%<br>JFE_Steel/JN_Core/35JN250.hb<br> ]]></text>
+</table>
+<table row="10" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>43</text>
+</table>
+<table row="10" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Rotor Magnet2@N35H@Rotor Magnet2@4</text>
+</table>
+<table row="10" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%MAGNET%<br>Arnold/Nd-Fe-B/N35H.hbt<br>%Magnetization% : 698211 [A/m]<br> ]]></text>
+</table>
+<table row="11" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>44</text>
+</table>
+<table row="11" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>AIR_REGION</text>
+</table>
+<table row="11" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="1" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%ANALYSIS_CONTROL%</text>
+</table>
+<table row="1" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="1" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>-</text>
+</table>
+<table row="2" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%STEP%</text>
+</table>
+<table row="2" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="2" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%NUMBER_OF_STEP% 1</text>
+</table>
+<table row="3" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%SYMMETRY_BOUNDARY2D%</text>
+</table>
+<table row="3" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="3" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>-</text>
+</table>
+<table row="4" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%CYCLIC_BOUNDARY%</text>
+</table>
+<table row="4" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="4" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%ANTI_ROTATE% %CYCLIC_ANGLE%:45.000000 [deg]</text>
+</table>
+<table row="5" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%FORCE%</text>
+</table>
+<table row="5" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="5" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>-</text>
+</table>
+<table row="1" col="1">
+	<code>29013</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%DIODE%</text>
+</table>
+<table row="1" col="2">
+	<code>29013</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%NO%</text>
+</table>
+<!-- SMP speedup mode (1) is applied -->
+<!--     Max Used Memory:     6.265[MByte] -->
+<!--   Max Used Memory (long):     0.191[MByte] -->
+<!--     Max Used Memory:     6.281[MByte] -->
+<!-- Before Renumber Matrix -->
+<!-- basic matrix size           3955 -->
+<!-- max. basic band width        898 -->
+<!--     Max Used Memory:     6.301[MByte] -->
+<!--     Max Used Memory:     6.305[MByte] -->
+<!--     Max Used Memory:     6.309[MByte] -->
+<!-- After Renumber Matrix -->
+<!-- max. basic band width         46 -->
+<!-- Use Renumber Matrix -->
+<!--     Max Used Memory:     6.450[MByte] -->
+<!--   Max Used Memory (long):     0.254[MByte] -->
+<!--     Max Used Memory:     6.450[MByte] -->
+<!--   Max Used Memory (long):     0.270[MByte] -->
+<!--     Max Used Memory:     6.450[MByte] -->
+<!--     Max Used Memory:     6.539[MByte] -->
+<!--     Max Used Memory:     6.540[MByte] -->
+<!--   Max Used Memory (long):     0.291[MByte] -->
+<!--   Max Used Memory (long):     0.312[MByte] -->
+<!--     Max Used Memory:     6.547[MByte] -->
+<!--   Max Used Memory (long):     0.335[MByte] -->
+<!--   Max Used Memory (long):     0.404[MByte] -->
+<!--   Max Used Memory (long):     0.427[MByte] -->
+<!--     Max Used Memory:     6.556[MByte] -->
+<!--   Max Used Memory (long):     0.488[MByte] -->
+<!-- number of equation = 997 -->
+<!-- number of matrix entry = 3955 -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<table row="-1" col="1">
+	<code>29004</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>%ADAPTIVE_STAGE%</text>
+</table>
+<table row="-1" col="2">
+	<code>29004</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="-1" col="3">
+	<code>29004</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>Yes : 6</text>
+</table>
+<table row="-1" col="4">
+	<code>29004</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text>Yes : 127</text>
+</table>
+<table row="-1" col="5">
+	<code>29004</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>normal mode</category>
+	<text> 1.200</text>
+</table>
+<!--     Max Used Memory:     6.556[MByte] -->
+<!--     Max Used Memory:     6.556[MByte] -->
+<!--     Max Used Memory:     6.572[MByte] -->
+<!--     Max Used Memory:     6.588[MByte] -->
+<!--     Max Used Memory:     6.588[MByte] -->
+<!--     Max Used Memory:     6.621[MByte] -->
+<!--     Max Used Memory:     6.621[MByte] -->
+<!--     Max Used Memory:     6.621[MByte] -->
+<!--     Max Used Memory:     6.686[MByte] -->
+<!--     Max Used Memory:     6.751[MByte] -->
+<!--     Max Used Memory:     6.847[MByte] -->
+<!--     Max Used Memory:     6.864[MByte] -->
+<!--     Max Used Memory:     6.880[MByte] -->
+<!--     Max Used Memory:     6.880[MByte] -->
+<!--     Max Used Memory:     6.906[MByte] -->
+<!--     Max Used Memory:     6.906[MByte] -->
+<!--     Max Used Memory:     6.906[MByte] -->
+<!--     Max Used Memory:     6.906[MByte] -->
+<!--     Max Used Memory:     6.922[MByte] -->
+<!--     Max Used Memory:     6.938[MByte] -->
+<!--     Max Used Memory:     6.938[MByte] -->
+<!--     Max Used Memory:     7.003[MByte] -->
+<!--     Max Used Memory:     7.003[MByte] -->
+<!--     Max Used Memory:     7.003[MByte] -->
+<!--     Max Used Memory:     7.003[MByte] -->
+<!--     Max Used Memory:     7.029[MByte] -->
+<!--     Max Used Memory:     7.055[MByte] -->
+<!--     Max Used Memory:     7.080[MByte] -->
+<!--     Max Used Memory:     7.106[MByte] -->
+<!--     Max Used Memory:     7.155[MByte] -->
+<!--     Max Used Memory:     7.203[MByte] -->
+<!--     Max Used Memory:     7.251[MByte] -->
+<!--     Max Used Memory:     7.300[MByte] -->
+<!--     Max Used Memory:     7.300[MByte] -->
+<!--     Max Used Memory:     7.300[MByte] -->
+<!--     Max Used Memory:     7.300[MByte] -->
+<!--     Max Used Memory:     7.316[MByte] -->
+<!--     Max Used Memory:     7.324[MByte] -->
+<!--     Max Used Memory:     7.421[MByte] -->
+<!--     Max Used Memory:     7.421[MByte] -->
+<!--     Max Used Memory:     7.421[MByte] -->
+<!--     Max Used Memory:     7.429[MByte] -->
+<!--     Max Used Memory:     7.437[MByte] -->
+<!--     Max Used Memory:     7.438[MByte] -->
+<!--     Max Used Memory:     7.460[MByte] -->
+<!--     Max Used Memory:     7.477[MByte] -->
+<!--     Max Used Memory:     7.481[MByte] -->
+<!--     Max Used Memory:     7.485[MByte] -->
+<!--     Max Used Memory:     7.493[MByte] -->
+<!--     Max Used Memory:     7.494[MByte] -->
+<!--     Max Used Memory:     7.494[MByte] -->
+<!--     Max Used Memory:     7.494[MByte] -->
+<!--     Max Used Memory:     7.494[MByte] -->
+<!--     Max Used Memory:     7.494[MByte] -->
+<!--     Max Used Memory:     7.509[MByte] -->
+<!--     Max Used Memory:     7.534[MByte] -->
+<!-- Size of monitoring results:4617 -->
+<!-- [prntxt] Maximum Memory= 140.844 Mbyte -->
+<!-- [prntxt] Used    Memory= 7.185 Mbyte -->
+<table row="-1" col="1">
+	<code>29006</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ADAPTIVE_STAGE%</text>
+</table>
+<table row="-1" col="2">
+	<code>29006</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[ 140.8 [Mbyte]]]></text>
+</table>
+<message>
+	<code>29005</code>
+	<status>Message</status>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>Calculation Time</text>
+	<data key="TIME">1.000 %SEC%</data>
+</message>
+<table row="2" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ANALYSIS_TYPE%</text>
+</table>
+<table row="2" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ST2D%</text>
+</table>
+<table row="3" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%FULL_MODEL_CONVERT%</text>
+</table>
+<table row="3" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%CONVERT%<br>%CONVERSION_FACTOR_CYC% : 8.000000<br>%CONVERSION_FACTOR% : 1.000000<br>%MODEL_THICKNESS% : 0.151000<br> ]]></text>
+</table>
+<table row="4" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%CIRCUIT_CONVERSION%</text>
+</table>
+<table row="4" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%CONVERT%<br>%CONVERSION_FACTOR% : 1.000000<br>%SERIES%<br> ]]></text>
+</table>
+<table row="5" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ANALYSIS_METHOD%</text>
+</table>
+<table row="5" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>FEM</text>
+</table>
+<table row="6" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ICCG_PARAMETER%</text>
+</table>
+<table row="6" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ACCEL% :    1.200<br>%MAXPCG% : 5000<br>%DIVERGENCE_EPS% :  1.000e+20<br> ]]></text>
+</table>
+<table row="7" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_TYPE%</text>
+</table>
+<table row="7" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%NewtonRaphson%</text>
+</table>
+<table row="8" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_PARAMETER%</text>
+</table>
+<table row="8" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%RELAX% : %RELAX% 2 %USE%<br>%MAXITR% : 30<br>%EPSLIN% : 1.000e-03<br> ]]></text>
+</table>
+<table row="9" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ICCG_CONTROL%</text>
+</table>
+<table row="9" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ICCG_BEST% : %ON%<br>%ICCG_RESTART% : %OFF%<br> ]]></text>
+</table>
+<table row="10" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_SPEED%</text>
+</table>
+<table row="10" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="11" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%EPSPCG_TYPE%</text>
+</table>
+<table row="11" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%EPSPCG_CONSTANT%<br>%EPSPCG% : 1.000e-08]]></text>
+</table>
+<table row="12" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_STRICT%</text>
+</table>
+<table row="12" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="13" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%MULTI_CPU%</text>
+</table>
+<table row="13" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>4</text>
+</table>
+<table row="14" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%DISP_CURRENT%</text>
+</table>
+<table row="14" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="15" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%PSEUDO_STEADY%</text>
+</table>
+<table row="15" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="16" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%FORCE_CORRECTION%</text>
+</table>
+<table row="16" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="2" col="1">
+	<code>29017</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%MODEL_SIZE%</text>
+</table>
+<table row="2" col="2">
+	<code>29017</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[ 1.560e+02 x  1.103e+02 x  0.000e+00]]></text>
+</table>
+<table row="3" col="1">
+	<code>29017</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%UNIT%</text>
+</table>
+<table row="3" col="2">
+	<code>29017</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>mm</text>
+</table>
+<table row="-1" col="1">
+	<code>29018</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ADAPTIVE_STAGE%</text>
+</table>
+<table row="-1" col="2">
+	<code>29018</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%NUM_ELEMENTS% : 2019<br>%NUM_NODES% : 1072]]></text>
+</table>
+<table row="2" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUTPUT_ITEM%</text>
+</table>
+<table row="2" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%ITEM%</text>
+</table>
+<table row="2" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUTPUT%</text>
+</table>
+<table row="3" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%STEP_DATA%</text>
+</table>
+<table row="3" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_STORED_ENERGY%</text>
+</table>
+<table row="3" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="4" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_ELEMENT_DATA%</text>
+</table>
+<table row="4" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_MAGNETIC_FLUX_DENSITY%</text>
+</table>
+<table row="4" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="5" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="5" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_MAGNETIZATION%</text>
+</table>
+<table row="5" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="6" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="6" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_CURRENT_DENSITY%</text>
+</table>
+<table row="6" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="7" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="7" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_BEAM_CURRENT%</text>
+</table>
+<table row="7" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="8" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="8" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_DEMAGNETIZING%</text>
+</table>
+<table row="8" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="9" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="9" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_JOULE_LOSS%</text>
+</table>
+<table row="9" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="10" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="10" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_SURFACE_FORCE%</text>
+</table>
+<table row="10" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="11" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="11" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_LORENTZ%</text>
+</table>
+<table row="11" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="12" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="12" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_ELECTRIC_FIELD%</text>
+</table>
+<table row="12" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="13" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="13" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_RELATIVE_PERMEABILITY%</text>
+</table>
+<table row="13" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="14" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="14" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_DIFF_PERMEABILITY%</text>
+</table>
+<table row="14" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="15" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="15" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_VECTOR_POTENTIAL%</text>
+</table>
+<table row="15" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="16" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="16" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_STRESS%</text>
+</table>
+<table row="16" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="17" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NODE_DATA%</text>
+</table>
+<table row="17" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_DISPLACEMENT%</text>
+</table>
+<table row="17" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="18" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="18" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NODAL_FORCE%</text>
+</table>
+<table row="18" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="19" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="19" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_VECTOR_POTENTIAL%</text>
+</table>
+<table row="19" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="20" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUTPUT_FILE%</text>
+</table>
+<table row="20" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_SAVE_FILE%</text>
+</table>
+<table row="20" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="21" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="21" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_CONVERGENCE_STATE%</text>
+</table>
+<table row="21" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="22" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="22" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_CG_MONITOR_FILE%</text>
+</table>
+<table row="22" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="23" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%CONTROL_FILE_SIZE%</text>
+</table>
+<table row="23" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%DIVISION_FILE%</text>
+</table>
+<table row="23" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>1000</text>
+</table>
+<table row="24" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%CONTROL_OUTPUT_INTERVAL%</text>
+</table>
+<table row="24" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%NO_CONTROL%</text>
+</table>
+<table row="24" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="1" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%MAGNETIC_FLUX%</text>
+</table>
+<table row="1" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 2.158e+00</text>
+</table>
+<table row="1" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 8.526e-07</text>
+</table>
+<table row="2" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%FORCE_STEP%</text>
+</table>
+<table row="2" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.198e+04</text>
+</table>
+<table row="2" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.198e+04</text>
+</table>
+<table row="3" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%TORQUE_STEP%</text>
+</table>
+<table row="3" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-7.769e-03</text>
+</table>
+<table row="3" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>-7.769e-03</text>
+</table>
+<table row="4" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%JOULE_LOSS_STEP%</text>
+</table>
+<table row="4" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="4" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="5" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%HYSTERESIS_LOSS_STEP%</text>
+</table>
+<table row="5" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="5" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="6" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%IRON_LOSS_STEP%</text>
+</table>
+<table row="6" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="6" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="1" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%JOULE_LOSS_STEP%</text>
+</table>
+<table row="1" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="1" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.208e+00</text>
+</table>
+<table row="2" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%IRON_LOSS_STEP%</text>
+</table>
+<table row="2" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="2" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.208e+00</text>
+</table>
+<table row="3" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%FORCE_STEP%</text>
+</table>
+<table row="3" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="3" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.208e+00</text>
+</table>
+<table row="4" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%TORQUE_STEP%</text>
+</table>
+<table row="4" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="4" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.208e+00</text>
+</table>
+<table row="5" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>%FLUX_STEP%</text>
+</table>
+<table row="5" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text>OFF</text>
+</table>
+<table row="5" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>18.1.8w_S</version>
+	<category>report mode</category>
+	<text> 1.000e+00</text>
+</table>
+<!-- Flex License Check In -->
+<!-- Called qlmend for Flex License Check In -->
+
+	Finish Time: Tue Jul  7 16:09:08 2020
+
+</logfile>
+<logfile ver="0.3">
+<!-- copy jinput.jcf fem.input.jcf -->
+<!-- Elapsed time from start = 1.36100e+00(sec) -->
+<!-- The error information file [jamr] cannot be opened. -->
+<table row="1" col="1">
+	<code>905108</code>
+	<module>MG2D</module>
+	<version>181.2019.05b</version>
+	<category>report mode</category>
+	<text>0</text>
+</table>
+<table row="1" col="2">
+	<code>905108</code>
+	<module>MG2D</module>
+	<version>181.2019.05b</version>
+	<category>report mode</category>
+	<text>2019</text>
+</table>
+<table row="1" col="3">
+	<code>905108</code>
+	<module>MG2D</module>
+	<version>181.2019.05b</version>
+	<category>report mode</category>
+	<text>0</text>
+</table>
+<table row="1" col="4">
+	<code>905108</code>
+	<module>MG2D</module>
+	<version>181.2019.05b</version>
+	<category>report mode</category>
+	<text>  0.000e+00</text>
+</table>
+<table row="1" col="5">
+	<code>905108</code>
+	<module>MG2D</module>
+	<version>181.2019.05b</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<!-- ... MG2DPostProcess, elapsed_time = 1.18400e+00(sec) -->
+
+	Finish Time: Tue Jul  7 16:09:08 2020
+
+</logfile>
+<logfile ver="0.3">
+<!-- 
+	ExecSolver (2019.05e_sp1)
+
+	Copyright (c) 1998-2018
+	JSOL Corporation.
+	All rights reserved.
+
+	Tue Jul  7 16:09:08 2020
+
+	compiled time : May 24 2019, 12:21:02
+
+ -->
+<!-- ExecuteSystem return = 0 -->
+<!-- Old filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1\fem.jplot -->
+<!-- New filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jplot -->
+<!-- New file size = 206 kByte -->
+<!-- Old filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1\fem.check -->
+<!-- New filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.check -->
+<!-- Old filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1\fem.error -->
+<!-- New filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.error -->
+<!-- Old filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1\fem.loss -->
+<!-- New filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.loss -->
+<!-- Old filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1\fem.msv -->
+<!-- New filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.msv -->
+<!-- Old filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1\fem.input.jcf -->
+<!-- New filename is F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer_input.jcf -->
+<!-- ReleaseKeepedLicenseForSolverAfterMG -->
+<!-- isKeepLicenseForSolverAfterMG = true -->
+<!-- The status of check-in operation of ExecSolver = 0 -->
+<!-- The check-in time = 2020/07/07-16:09:08 -->
+<message>
+	<code>120007</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Output Filename</text>
+	<data key="OUT_FILENAME">Designer.jplot</data>
+</message>
+<message>
+	<code>120008</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Size of Output File</text>
+	<data key="OUT_FILE_SIZE">206</data>
+</message>
+<message>
+	<code>120009</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>Analysis Time</text>
+	<data key="ANALYSIS_TIME">0days 00hours 00min 02sec</data>
+</message>
+<table row="6" col="1">
+	<code>29002</code>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>%MESH_GENERATE_IN_ANALYSIS%</text>
+</table>
+<table row="6" col="2">
+	<code>29002</code>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>1</text>
+</table>
+<table row="6" col="3">
+	<code>29002</code>
+	<module>ExecSolver</module>
+	<version>2019.05e_sp1</version>
+	<category>report mode</category>
+	<text>%MESH_GENERATE_TYPE_AUTO%</text>
+</table>
+<!-- rename again for error -->
+<!-- cmd /c ""C:/Program Files/JMAG-Designer18.1\postcalculator.exe" "F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jplot"" -->
+<!-- jplot file [F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.jplot] is optimized. -->
+<!-- delete file name:F:/2. Work Project/2020_FEM_ImageTransfer/00. tools & codes/1. JMAG FEA GA/2. controled FE model/ImageTransfer_only.jfiles/Geo_-_Copy_0~3/Static_Image~12/Case1/Designer.msv -->
+
+	Finish Time: Tue Jul  7 16:09:09 2020
+
+</logfile>

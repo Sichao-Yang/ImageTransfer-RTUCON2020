@@ -1,0 +1,116 @@
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                   MESH GENERATOR FOR 2D
+                   Version : 181.2019.05b
+                   Mode    : Adaptive
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+*************************************
+  JMAG : Magnetic Analysis Solver
+  version = 18.1.8w_S
+  copyright(C) JSOL Corporation.
+*************************************
+Start Calculation : Tue Jul  7 16:09:07 2020
+ SOLVER is ICCG
+ Newton Raphson Iteration
+
+ FEM analysis
+ A method
+ Use JMAG_Fast_Setup
+ Use JMAG_Fast_Setup_Parallel
+residual non linear relaxation
+ Nodal Circuit Mode
+======================================================
+ Step =          1, 0.00000e+00 [sec]
+ -------- non linear --------------         1
+ NonLinear:alpha 1.00000
+[gi_abs] Gi=      6.456236629772e+02
+[gi_abs] Gi=      6.456236629772e+02
+applying the best answer...
+iter = 127, err = 4.78887e-09
+[iccg_mpp ] minimum itr, eps :iter:        127     0.00000e+00
+[solver time      ] time:    9.03750e-03 sec,  iter:        127
+[solver time total] time:    9.03750e-03 sec,  iter:        127  iter_step:        127
+[answer] da/a,de/e,dp/p= 1.000E+00 1.000E+00 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 6.342E+01 1.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 6.342E+01 1.000E+00
+ -------- non linear --------------         2
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+[avec_set_r] alph_itr          3
+ NonLinear:alpha 0.04500
+[gi_abs] Gi=      6.974369716038e+02
+[gi_abs] Gi=      3.504527701154e+03
+applying the best answer...
+iter = 101, err = 3.76429e-09
+[iccg_mpp ] minimum itr, eps :iter:        101     0.00000e+00
+[solver time      ] time:    7.01260e-03 sec,  iter:        101
+[solver time total] time:    1.60501e-02 sec,  iter:        228  iter_step:        228
+[answer] da/a,de/e,dp/p= 9.226E-01 9.226E-01 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 6.120E+01 4.662E+00
+[answer] dBmax,sum(dB)/sum(B)= 0.000E+00 0.000E+00
+ -------- non linear --------------         3
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+[avec_set_r] alph_itr          3
+[avec_set_r] alph_itr          4
+ NonLinear:alpha 0.91278
+[gi_abs] Gi=      8.532828478475e+01
+[gi_abs] Gi=      6.680061077006e+03
+applying the best answer...
+iter = 89, err = 5.51952e-09
+[iccg_mpp ] minimum itr, eps :iter:         89     0.00000e+00
+[solver time      ] time:    5.40880e-03 sec,  iter:         89
+[solver time total] time:    2.14589e-02 sec,  iter:        317  iter_step:        317
+[answer] da/a,de/e,dp/p= 8.204E-02 8.204E-02 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 5.087E-01 1.193E-01
+[answer] dBmax,sum(dB)/sum(B)= 0.000E+00 0.000E+00
+ -------- non linear --------------         4
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+[avec_set_r] alph_itr          3
+ NonLinear:alpha 1.11518
+[gi_abs] Gi=      2.115562772420e+01
+[gi_abs] Gi=      6.919256050519e+03
+applying the best answer...
+iter = 86, err = 8.16769e-09
+[iccg_mpp ] minimum itr, eps :iter:         86     0.00000e+00
+[solver time      ] time:    5.17450e-03 sec,  iter:         86
+[solver time total] time:    2.66334e-02 sec,  iter:        403  iter_step:        403
+[answer] da/a,de/e,dp/p= 1.242E-02 1.242E-02 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 2.906E-01 3.575E-02
+[answer] dBmax,sum(dB)/sum(B)= 0.000E+00 0.000E+00
+ -------- non linear --------------         5
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+[avec_set_r] alph_itr          3
+[avec_set_r] alph_itr          4
+ NonLinear:alpha 1.30554
+[gi_abs] Gi=      4.851133634550e+00
+[gi_abs] Gi=      6.880419535865e+03
+applying the best answer...
+iter = 64, err = 9.39993e-09
+[iccg_mpp ] minimum itr, eps :iter:         64     0.00000e+00
+[solver time      ] time:    4.88740e-03 sec,  iter:         64
+[solver time total] time:    3.15208e-02 sec,  iter:        467  iter_step:        467
+[answer] da/a,de/e,dp/p= 4.236E-03 4.236E-03 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 1.816E-01 1.127E-02
+[answer] dBmax,sum(dB)/sum(B)= 0.000E+00 0.000E+00
+ -------- non linear --------------         6
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+ NonLinear:alpha 1.03220
+[gi_abs] Gi=      2.325509572838e-01
+[gi_abs] Gi=      6.880685448176e+03
+applying the best answer...
+iter = 48, err = 7.10997e-09
+[iccg_mpp ] minimum itr, eps :iter:         48     0.00000e+00
+[solver time      ] time:    3.87930e-03 sec,  iter:         48
+[solver time total] time:    3.54001e-02 sec,  iter:        515  iter_step:        515
+[answer] da/a,de/e,dp/p= 8.415E-04 8.415E-04 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 3.502E-02 2.087E-03
+[answer] dBmax,sum(dB)/sum(B)= 0.000E+00 0.000E+00
+[answer] C O N V E R G E D !!!(non linear)
+[prntxt] Maximum Memory= 140.844 Mbyte
+End Calculation : Tue Jul  7 16:09:08 2020
+Calculation Time : 1.000  [sec]
+Calculation Time : 1.000  [sec]
+
