@@ -1,0 +1,10 @@
+function [ ksk, kef ] = kskef_calc( klam)
+ltot=600;
+g=4;
+bv=10;
+nv=16;
+b=bv^2/(bv+5*g/2);
+lef=ltot-b*nv;
+lstk=ltot-nv*bv;
+kef=lef/ltot;
+ksk=lstk/ltot*klam;
