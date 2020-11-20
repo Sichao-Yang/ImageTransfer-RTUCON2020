@@ -1,0 +1,1 @@
+two ways to set parameter-sweeping table in JMAG

@@ -1,0 +1,5 @@
+Case,Label,Group,CAD parameters: M Angle of Magnets@ipm_rotor,CAD parameters: M2 Clearance between Magnets@ipm_rotor,CAD parameters: R1 Inside Diameter@ipm_rotor,CAD parameters: RD1 Outside Diameter@ipm_rotor,CAD parameters: TM Thickness of Magnets@ipm_rotor,CAD parameters: WFB1 Width of Flux Barriers 1@ipm_rotor,CAD parameters: WFB2 Width of Flux Barriers 2@ipm_rotor,Width,Pm
+1,,,60,5.91,35.5,148,5,4.73,4.73,28.4,35
+2,,,60,5.91,35.5,148,8,4.73,4.73,29,34
+3,,,60,5.91,35.5,148,7,4.73,4.73,29,34
+4,,,60,5.91,35.5,148,6,4.73,4.73,29,34
