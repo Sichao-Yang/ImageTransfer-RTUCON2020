@@ -10,4 +10,4 @@ The deep learning framework used is PyTorch and the main adapted model is [Pix2P
 
 Feel free to download, study, modify and share this project.
 
-## $\fontcolor{Magenta}Sichao Yang$
+$\color{Magenta}Sichao Yang$
