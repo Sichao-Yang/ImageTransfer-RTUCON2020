@@ -12,6 +12,4 @@ Feel free to download, study, modify and share this project.
 
 if you have any question, please contact me on 13816901408@163.com
 
-lastly, let's have fun with Deep-Learning 
-
 ### Sichao Yang
