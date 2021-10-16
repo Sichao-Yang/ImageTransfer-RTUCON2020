@@ -15,9 +15,9 @@ if you have any question, please contact me on 13816901408@163.com
 ### Sichao Yang
 
 
-## install environment
+## Environment
 
-1. 创建虚拟环境
+1. 创建虚拟环境 (python>=3.7)
 
 ```
 conda create -n imageT python=3.7
