@@ -11,6 +11,7 @@ import torch.backends.cudnn as cudnn
 import time
 
 print(torch.cuda.is_available())
+# exit()
 # import our libraries
 from networks import define_G, define_D, GANLoss, get_scheduler, update_learning_rate
 from dataset import get_training_set, get_test_set
@@ -94,6 +95,7 @@ net_d_scheduler = get_scheduler(optimizer_d, opt)
 mseloss = ['test_mseloss']
 lossD = ['train_dloss']
 lossG = ['train_gloss']
+psnr  = ['psnr']
 # start training
 start_time = time.time()
 for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
@@ -103,7 +105,7 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
         # get pair
         real_a, real_b = batch[0].to(device), batch[1].to(device)
         # generate fake one
-		fake_b = net_g(real_a)
+        fake_b = net_g(real_a)
         ######################
         # (1) Update D network
         ######################
@@ -164,10 +166,10 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
         prediction = net_g(input)
         # compare
         mse = criterionMSE(prediction, target)
-        psnr = - 10 * log10(mse.item())	#because the image is normalized, so max pixel value is 1, so 20*log10(maxI)=0
-        avg_psnr += psnr
+        tmp = - 10 * log10(mse.item())	#because the image is normalized, so max pixel value is 1, so 20*log10(maxI)=0
+        avg_psnr += tmp
     print("===> Avg. PSNR: {:.4f} dB".format(avg_psnr / len(testing_data_loader)))
-    psnr += avg_psnr
+    psnr += [avg_psnr]
 
     # save model and psnr in checkpoints for every # epochs
     if epoch % 5 == 0:
