@@ -1,4 +1,5 @@
-from os.path import join, listdir
+from os.path import join
+from os import listdir
 # from dataset import DatasetFromFolder
 
 def get_training_set(root_dir, direction):
