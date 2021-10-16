@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 import torch.backends.cudnn as cudnn
 import time
 
-
+print(torch.cuda.is_available())
 # import our libraries
 from networks import define_G, define_D, GANLoss, get_scheduler, update_learning_rate
 from dataset import get_training_set, get_test_set
@@ -43,7 +43,7 @@ parser.add_argument('--lr', type=float, default=0.0002, help='initial learning r
 parser.add_argument('--lr_policy', type=str, default='lambda', help='learning rate policy: lambda|step|plateau|cosine')
 # parser.add_argument('--lr_decay_iters', type=int, default=20, help='step: multiply by a gamma every lr_decay_iters iterations')
 parser.add_argument('--beta1', type=float, default=0.5, help='beta1 for adam. default=0.5')
-parser.add_argument('--cuda', action='store_true', help='use cuda?')
+parser.add_argument('--cuda', type=bool, default=True, help='use cuda?')
 parser.add_argument('--threads', type=int, default=4, help='number of threads for data loader to use')
 parser.add_argument('--seed', type=int, default=1, help='random seed to use. Default=123')
 parser.add_argument('--lamb', type=int, default=1, help='weight on L1 term in objective')
