@@ -167,7 +167,7 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
         psnr = - 10 * log10(mse.item())	#because the image is normalized, so max pixel value is 1, so 20*log10(maxI)=0
         avg_psnr += psnr
     print("===> Avg. PSNR: {:.4f} dB".format(avg_psnr / len(testing_data_loader)))
-    psnr += [avg_psnr]
+    psnr += avg_psnr
 
     # save model and psnr in checkpoints for every # epochs
     if epoch % 5 == 0:
