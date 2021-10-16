@@ -9,8 +9,6 @@ import os.path, sys
 
 # dataset path
 path='/home/yons/Downloads/1. IT/SPM'
-# the no of images we take is defined as a percentage in testfileNo
-testfileNo = round(len(os.listdir(src1))*0.1)
 
 
 w = 340			# image width defined in image extraction
@@ -52,6 +50,8 @@ if not(os.path.isdir(tar1)):	# check if there is target directories
 	os.makedirs(tar1)
 	os.makedirs(tar2)
 
+# the no of images we take is defined as a percentage in testfileNo
+testfileNo = round(len(os.listdir(src1))*0.1)
 for i in range(testfileNo):
     file = random.choice(os.listdir(src1))
     src = os.path.join(src1,file)
