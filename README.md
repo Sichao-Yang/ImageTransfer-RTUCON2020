@@ -13,3 +13,20 @@ Feel free to download, study, modify and share this project.
 if you have any question, please contact me on 13816901408@163.com
 
 ### Sichao Yang
+
+
+## install environment
+
+1. 创建虚拟环境
+
+```
+conda create -n imageT python=3.7
+```
+
+2. 安装支持cuda11.1的[pytorch](https://pytorch.org/get-started/previous-versions/)
+
+```
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+```
+
+
